@@ -37,8 +37,8 @@ $(document).ready(function () {
   event.preventDefault();
   console.log("trigger"); 
   $("#modal").modal("hide");
+  $("#challengeVid").attr("src", "");
   
-
   //Get database inputs
   var name = $("#name-input").val().trim();
   var message = $("#message-input").val().trim();
