@@ -36,6 +36,8 @@ $(document).ready(function () {
  $("#playBtn").on("click",function(event) {
   event.preventDefault();
   console.log("trigger"); 
+  $("#modal").modal("hide");
+  
 
   //Get database inputs
   var name = $("#name-input").val().trim();
@@ -59,6 +61,7 @@ $(document).ready(function () {
 
   })
 
+  
  })
   
 
